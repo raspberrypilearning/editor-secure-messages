@@ -1,14 +1,33 @@
-title: Project title in sentence case
-hero_image: images/banner.png
-description: A short description of the project
-listed: false
-pdf: false
+---
+hero_image: images/secure-messages.png
+theme: red
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: Secure Messages
+description: Make your own encryption program, to send and receive secure messages.
+original_url: https://codeclubprojects.org/en-GB/python/secure-messages
+interests: cybersecurity-and-cryptography
+technologies: python
+site_areas: projects
+hardware: ''
+software: python
+version: 3
+last_tested: 2017-01-01
 steps:
-  - title: What you will make
-  - title: Step title
-    completion:
-      - engaged      
-  - title: Challenge
-    challenge: true
-    completion:
-      - external
+- title: What you will make
+- title: The Caesar cipher
+- title: Encrypting letters
+  completion:
+  - engaged
+- title: Variable keys
+- title: Encrypting entire messages
+  completion:
+  - internal
+- title: Extra characters
+  completion:
+  - external
+- title: Challenge
+  challenge: true
