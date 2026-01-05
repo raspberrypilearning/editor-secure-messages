@@ -1,9 +1,10 @@
 <h2 class="c-project-heading--task">STEP TITLE</h2>
 --- task ---
-Wrap around
+Let the user enter their own key. 
 --- /task ---
 
-Use a `%` to tell the new position to go back to position 0 once it gets to position 26.
+Get the key from the user. 
+Also: Remove the unecessary print statement.
 
 <div class="c-project-code">
 --- code ---
@@ -12,29 +13,33 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 8
+line_highlights: 2, 3, 10, 12
 ---
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
-key = 3
+key = input('Please enter the key: ')
+key = int(key)
 
 character = input('Please enter a character: ')
 
 position = alphabet.find(character)
 
 new_position = (position + key) % 26
-print(new_position)
+
+new_character = alphabet[new_position]
+print('The new character is: ', new_character)
 --- /code ---
 </div>
 
 <div class="c-project-output">
-<pre>Please enter a character: y
-1</pre>
+<pre>Please enter the key: 5
+Please enter a character: f
+The new character is:  k</pre>
 </div>
 
 <div class="c-project-callout c-project-callout--debug">
 
 ### Debugging
 
-- Parentheses are needed around `position + key`
+- Use int(key) to convert the input character to an integer (number).
 
 </div>
