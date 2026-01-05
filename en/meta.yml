@@ -17,17 +17,19 @@ software: python
 version: 3
 last_tested: 2017-01-01
 steps:
-- title: What you will make
-- title: The Caesar cipher
-- title: Encrypting letters
+- title: Step 1
+- title: Step 2
   completion:
   - engaged
-- title: Variable keys
-- title: Encrypting entire messages
+- title: Step 3
+- title: Step 4
+- title: Step 5
+- title: Step 6
+- title: Step 7
+- title: Step 8
+- title: Step 9
+- title: Step 10
   completion:
   - internal
-- title: Extra characters
-  completion:
   - external
-- title: Challenge
-  challenge: true
+  
