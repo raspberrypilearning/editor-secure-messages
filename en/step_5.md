@@ -1,9 +1,10 @@
-<h2 class="c-project-heading--task">STEP TITLE</h2>
+<h2 class="c-project-heading--task">Let the user enter their own key</h2>
 --- task ---
-Let the user enter their own key. 
---- /task ---
 
 Get the key from the user. 
+
+--- /task ---
+
 Also: Remove the unecessary print statement.
 
 <div class="c-project-code">

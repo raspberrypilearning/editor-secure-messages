@@ -1,9 +1,8 @@
-<h2 class="c-project-heading--task">STEP TITLE</h2>
+<h2 class="c-project-heading--task">Handle special characters</h2>
 --- task ---
-Handle special characters
+Only translate a character if it's in the alphabet. 
 --- /task ---
 
-Only translate a character if it's in the alphabet. 
 Add an `if` `else` statement to your code, which only encrypts alphabet charcaters and adds the original special character to the encrypted message.
 
 <div class="c-project-code">

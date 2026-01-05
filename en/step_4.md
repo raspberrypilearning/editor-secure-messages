@@ -1,9 +1,11 @@
-<h2 class="c-project-heading--task">STEP TITLE</h2>
+<h2 class="c-project-heading--task">Print the letter at the new position.</h2>
 --- task ---
-Print the letter at the new position.
+
+Output the new character.
+
 --- /task ---
 
-Output the new character by printing the letter at the position in square brackets.
+Print the letter at the position in square brackets.
 
 <div class="c-project-code">
 --- code ---
