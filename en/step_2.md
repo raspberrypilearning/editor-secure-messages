@@ -1,10 +1,10 @@
-<h2 class="c-project-heading--task">STEP TITLE</h2>
+<h2 class="c-project-heading--task">Encrypt the character</h2>
 --- task ---
-Encrypt the character
---- /task ---
 
 Get the `position` of the character and add the `key` to it. 
 Then store the result in a variable called `new_position`.
+
+--- /task ---
 
 <div class="c-project-code">
 --- code ---

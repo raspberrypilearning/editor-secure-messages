@@ -1,9 +1,9 @@
-<h2 class="c-project-heading--task">STEP TITLE</h2>
+<h2 class="c-project-heading--task">Wrap around</h2>
 --- task ---
-Wrap around
---- /task ---
 
 Use a `%` to tell the new position to go back to position 0 once it gets to position 26.
+
+--- /task ---
 
 <div class="c-project-code">
 --- code ---

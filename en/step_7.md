@@ -1,9 +1,9 @@
-<h2 class="c-project-heading--task">STEP TITLE</h2>
+<h2 class="c-project-heading--task">Print the new message on one line</h2>
 --- task ---
-Print the new message on one line
---- /task ---
 
 Store the new message in a variable, add each new character to it and print it at the end.
+
+--- /task ---
 
 <div class="c-project-code">
 --- code ---

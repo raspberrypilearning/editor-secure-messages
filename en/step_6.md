@@ -1,9 +1,9 @@
-<h2 class="c-project-heading--task">STEP TITLE</h2>
+<h2 class="c-project-heading--task">Encrypt a full message</h2>
 --- task ---
-Encrypt a full message
---- /task ---
 
 Store the user's message and use a `for` loop to repeat the code for each character in the message.
+
+--- /task ---
 
 <div class="c-project-code">
 --- code ---

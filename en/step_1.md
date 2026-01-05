@@ -1,9 +1,9 @@
-<h2 class="c-project-heading--task">STEP TITLE</h2>
+<h2 class="c-project-heading--task">Take a single character</h2>
 --- task ---
-Take a single character.
---- /task ---
 
 Ask the user for a single letter (called a `character`) to encrypt.
+
+--- /task ---
 
 <div class="c-project-code">
 --- code ---
