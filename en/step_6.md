@@ -1,7 +1,8 @@
-<h2 class="c-project-heading--task">Encrypt a full message</h2>
+<h2 class="c-project-heading--task">Let the user enter their own key</h2>
 --- task ---
 
-Store the user's message and use a `for` loop to repeat the code for each character in the message.
+Get the key from the user. 
+Remove the unecessary print statement.
 
 --- /task ---
 
@@ -12,30 +13,33 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 5-13
+line_highlights: 2, 3, 10, 12
 ---
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
 key = input('Please enter the key: ')
 key = int(key)
 
-message = input('Please enter a message: ')
+character = input('Please enter a character: ')
 
-for character in message:
-	position = alphabet.find(character)
+position = alphabet.find(character)
 
-	new_position = (position + key) % 26
+new_position = (position + key) % 26
 
-	new_character = alphabet[new_position]
-	print('The new character is: ', new_character)
+new_character = alphabet[new_position]
+print('The new character is: ', new_character)
 --- /code ---
 </div>
 
 <div class="c-project-output">
 <pre>Please enter the key: 5
-Please enter a message: hello
-The new character is:  m
-The new character is:  j
-The new character is:  q
-The new character is:  q
-The new character is:  t</pre>
+Please enter a character: f
+The new character is:  k</pre>
+</div>
+
+<div class="c-project-callout c-project-callout--debug">
+
+### Debugging
+
+- Make sure you have used `int` to convert the input key to an integer (number).
+
 </div>

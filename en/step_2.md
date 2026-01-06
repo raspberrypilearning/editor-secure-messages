@@ -1,8 +1,7 @@
 <h2 class="c-project-heading--task">Encrypt the character</h2>
 --- task ---
 
-Get the `position` of the character and add the `key` to it. 
-Then store the result in a variable called `new_position`.
+Print the `position` of the character. 
 
 --- /task ---
 
@@ -13,23 +12,29 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 6-9
+line_highlights: 5-7
 ---
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
-key = 3
 
 character = input('Please enter a character: ')
 
 position = alphabet.find(character)
 
-new_position = position + key
-print(new_position)
+print(position)
 --- /code ---
+</div>
+
+<div class="c-project-callout c-project-callout--tip">
+
+### Tip
+
+- The letter `a` is at position `0` in the alphabet.
+
 </div>
 
 <div class="c-project-output">
 <pre>Please enter a character: e
-7</pre>
+5</pre>
 </div>
 
 <div class="c-project-callout c-project-callout--tip">
