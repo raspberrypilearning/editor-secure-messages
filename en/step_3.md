@@ -1,7 +1,9 @@
-<h2 class="c-project-heading--task">Wrap around</h2>
+<h2 class="c-project-heading--task">Encrypt the character</h2>
 --- task ---
 
-Use a `%` to tell the new position to go back to position 0 once it gets to position 26.
+Add an encryption `key`.
+Add it to the position.
+Print the new position.
 
 --- /task ---
 
@@ -12,7 +14,7 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 8
+line_highlights: 2, 8, 9
 ---
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
 key = 3
@@ -21,20 +23,14 @@ character = input('Please enter a character: ')
 
 position = alphabet.find(character)
 
-new_position = (position + key) % 26
+new_position = position + key
 print(new_position)
 --- /code ---
 </div>
 
 <div class="c-project-output">
-<pre>Please enter a character: y
-1</pre>
+<pre>Please enter a character: e
+7</pre>
 </div>
 
-<div class="c-project-callout c-project-callout--debug">
-
-### Debugging
-
-- Parentheses are needed around `position + key`
-
-</div>
+<div class="c-project-callout c-project-callout--tip">

@@ -1,4 +1,7 @@
 <h2 class="c-project-heading--task">Take a single character</h2>
+
+<h2 class="c-project-heading--explainer">Create your own encryption program, to send and receive secure messages with a friend!</h2>
+
 --- task ---
 
 Ask the user for a single letter (called a `character`) to encrypt.
@@ -15,7 +18,6 @@ line_number_start:
 line_highlights: 
 ---
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
-key = 3
 
 character = input('Please enter a character: ')
 --- /code ---
