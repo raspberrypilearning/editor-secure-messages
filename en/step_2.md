@@ -33,8 +33,7 @@ print(position)
 </div>
 
 <div class="c-project-output">
-<pre>Please enter a character: e
-5</pre>
+<pre>Please enter a character: 
+e
+4</pre>
 </div>
-
-<div class="c-project-callout c-project-callout--tip">
