@@ -33,4 +33,3 @@ print(new_position)
 7</pre>
 </div>
 
-<div class="c-project-callout c-project-callout--tip">
