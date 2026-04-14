@@ -2,11 +2,10 @@
 
 <h2 class="c-project-heading--explainer">Create your own encryption program, to send and receive secure messages with a friend!</h2>
 
---- task ---
+### Step 1
 
 Ask the user for a single letter (called a `character`) to encrypt.
 
---- /task ---
 
 <div class="c-project-code">
 --- code ---
@@ -27,5 +26,3 @@ character = input('Please enter a character: ')
 <div class="c-project-output">
 <pre>Please enter a character: </pre>
 </div>
-
-

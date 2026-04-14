@@ -1,10 +1,9 @@
 <h2 class="c-project-heading--task">Let the user enter their own key</h2>
---- task ---
+### Step 1
 
 Get the key from the user. 
 Remove the unecessary print statement.
 
---- /task ---
 
 <div class="c-project-code">
 --- code ---

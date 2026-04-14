@@ -1,9 +1,8 @@
 <h2 class="c-project-heading--task">Encrypt the character</h2>
---- task ---
+### Step 1
 
 Print the `position` of the character. 
 
---- /task ---
 
 <div class="c-project-code">
 --- code ---

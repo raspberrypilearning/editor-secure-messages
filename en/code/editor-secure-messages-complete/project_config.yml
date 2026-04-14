@@ -1,3 +1,4 @@
 name: 'Secure Messages Complete'
 identifier: 'editor-secure-messages-complete'
 type: 'python'
+build: true

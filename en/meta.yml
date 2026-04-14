@@ -16,18 +16,20 @@ hardware: ''
 software: python
 version: 3
 last_tested: 2017-01-01
+landing: true
 steps:
-- title: Step 1
-- title: Step 2
-  completion:
-  - engaged
-- title: Step 3
-- title: Step 4
-- title: Step 5
-- title: Step 6
-- title: Step 7
-- title: Step 8
-- title: Step 9
-  completion:
-  - internal
-  - external
+  - title: Take a single character
+  - title: Encrypt the character
+    completion:
+      - engaged
+  - title: Encrypt the character
+  - title: Wrap around
+  - title: "Print the letter at the new position."
+  - title: Let the user enter their own key
+  - title: Encrypt a full message
+  - title: Print the new message on one line
+    completion:
+      - internal
+  - title: Handle special characters
+    completion:
+      - external

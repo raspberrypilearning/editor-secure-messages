@@ -1,11 +1,10 @@
 <h2 class="c-project-heading--task">Encrypt the character</h2>
---- task ---
+### Step 1
 
 Add an encryption `key`.
 Add it to the position.
 Print the new position.
 
---- /task ---
 
 <div class="c-project-code">
 --- code ---
@@ -32,4 +31,3 @@ print(new_position)
 <pre>Please enter a character: e
 7</pre>
 </div>
-
