@@ -1,4 +1,5 @@
 <h2 class="c-project-heading--task">Print the letter at the new position.</h2>
+
 ### Step 1
 
 Output the character at the new position.

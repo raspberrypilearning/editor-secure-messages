@@ -1,4 +1,5 @@
 <h2 class="c-project-heading--task">Let the user enter their own key</h2>
+
 ### Step 1
 
 Get the key from the user. 

@@ -1,4 +1,5 @@
 <h2 class="c-project-heading--task">Print the new message on one line</h2>
+
 ### Step 1
 
 Store the new message in a variable, add each new character to it and print it at the end.

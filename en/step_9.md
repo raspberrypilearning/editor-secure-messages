@@ -1,4 +1,5 @@
 <h2 class="c-project-heading--task">Handle special characters</h2>
+
 ### Step 1
 Only translate a character if it's in the alphabet. 
 
