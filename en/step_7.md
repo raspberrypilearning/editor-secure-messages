@@ -1,9 +1,8 @@
 <h2 class="c-project-heading--task">Encrypt a full message</h2>
 
-### Step 1
-
 Store the user's message and use a `for` loop to repeat the code for each character in the message.
 
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 <div class="c-project-code">
 --- code ---
@@ -39,3 +38,7 @@ The new character is:  q
 The new character is:  q
 The new character is:  t</pre>
 </div>
+
+## Now run your code
+
+Confirm the observable result.

@@ -1,11 +1,11 @@
 <h2 class="c-project-heading--task">Encrypt the character</h2>
 
-### Step 1
-
 Add an encryption `key`.
+
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
 Add it to the position.
 Print the new position.
-
 
 <div class="c-project-code">
 --- code ---
@@ -32,3 +32,7 @@ print(new_position)
 <pre>Please enter a character: e
 7</pre>
 </div>
+
+## Now run your code
+
+Confirm the observable result.

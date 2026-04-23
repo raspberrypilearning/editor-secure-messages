@@ -1,9 +1,8 @@
 <h2 class="c-project-heading--task">Print the letter at the new position.</h2>
 
-### Step 1
-
 Output the character at the new position.
 
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 <div class="c-project-code">
 --- code ---
@@ -34,3 +33,7 @@ print(new_character)
 7
 h</pre>
 </div>
+
+## Now run your code
+
+Confirm the observable result.

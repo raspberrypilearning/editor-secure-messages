@@ -1,9 +1,8 @@
 <h2 class="c-project-heading--task">Encrypt the character</h2>
 
-### Step 1
+Print the `position` of the character.
 
-Print the `position` of the character. 
-
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 <div class="c-project-code">
 --- code ---
@@ -24,9 +23,9 @@ print(position)
 --- /code ---
 </div>
 
-<div class="c-project-callout c-project-callout--tip">
-
 ### Tip
+
+<div class="c-project-callout c-project-callout--tip">
 
 - The letter `a` is at position `0` in the alphabet.
 
@@ -37,3 +36,7 @@ print(position)
 e
 4</pre>
 </div>
+
+## Now run your code
+
+Confirm the observable result.

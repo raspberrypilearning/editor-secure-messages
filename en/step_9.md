@@ -1,7 +1,8 @@
 <h2 class="c-project-heading--task">Handle special characters</h2>
 
-### Step 1
-Only translate a character if it's in the alphabet. 
+Only translate a character if it's in the alphabet.
+
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 Add an `if` `else` statement to your code, which only encrypts alphabet charcaters and adds the original special character to the encrypted message.
 
@@ -34,3 +35,7 @@ print(new_message)
 Please enter a message: hello!!
 mjqqt!!</pre>
 </div>
+
+## Now run your code
+
+Confirm the observable result.
