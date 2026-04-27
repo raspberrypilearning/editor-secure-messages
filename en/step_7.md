@@ -41,4 +41,4 @@ The new character is:  t</pre>
 
 ## Now run your code
 
-Confirm the observable result.
+Run your code, enter a message, and check that a new encrypted character is printed for each letter.

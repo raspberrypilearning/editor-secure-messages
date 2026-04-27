@@ -27,4 +27,4 @@ character = input('Please enter a character: ')
 
 ## Now run your code
 
-Confirm the observable result.
+Run your code and check that it asks you to enter a character.

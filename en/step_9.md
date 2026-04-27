@@ -38,4 +38,4 @@ mjqqt!!</pre>
 
 ## Now run your code
 
-Confirm the observable result.
+Run your code, enter a message with symbols such as `!!`, and check that the symbols stay the same in the encrypted message.

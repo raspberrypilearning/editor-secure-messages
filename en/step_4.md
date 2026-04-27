@@ -40,4 +40,4 @@ print(new_position)
 
 ## Now run your code
 
-Confirm the observable result.
+Run your code, enter a character such as `y`, and check that the position wraps back to the start of the alphabet.

@@ -36,4 +36,4 @@ h</pre>
 
 ## Now run your code
 
-Confirm the observable result.
+Run your code, enter a character, and check that the encrypted letter is printed.

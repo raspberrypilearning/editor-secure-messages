@@ -46,4 +46,4 @@ The new character is:  k</pre>
 
 ## Now run your code
 
-Confirm the observable result.
+Run your code, enter a key and a character, and check that the new encrypted character matches your key.
