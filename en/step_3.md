@@ -1,11 +1,11 @@
 <h2 class="c-project-heading--task">Encrypt the character</h2>
---- task ---
 
 Add an encryption `key`.
+
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
 Add it to the position.
 Print the new position.
-
---- /task ---
 
 <div class="c-project-code">
 --- code ---
@@ -33,3 +33,6 @@ print(new_position)
 7</pre>
 </div>
 
+## Now run your code
+
+Run your code, enter a character, and check that the new position number is printed after the key is added.

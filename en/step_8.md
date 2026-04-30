@@ -1,9 +1,8 @@
 <h2 class="c-project-heading--task">Print the new message on one line</h2>
---- task ---
 
 Store the new message in a variable, add each new character to it and print it at the end.
 
---- /task ---
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 <div class="c-project-code">
 --- code ---
@@ -38,3 +37,7 @@ print(new_message)
 Please enter a message: hello
 mjqqt</pre>
 </div>
+
+## Now run your code
+
+Run your code, enter a message, and check that the full encrypted message is printed as one word.

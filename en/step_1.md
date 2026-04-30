@@ -1,12 +1,9 @@
 <h2 class="c-project-heading--task">Take a single character</h2>
 
-<h2 class="c-project-heading--explainer">Create your own encryption program, to send and receive secure messages with a friend!</h2>
-
---- task ---
-
 Ask the user for a single letter (called a `character`) to encrypt.
 
---- /task ---
+<h2 class="c-project-heading--explainer">Create your own encryption program, to send and receive secure messages with a friend!</h2>
+
 
 <div class="c-project-code">
 --- code ---
@@ -28,4 +25,6 @@ character = input('Please enter a character: ')
 <pre>Please enter a character: </pre>
 </div>
 
+## Now run your code
 
+Run your code and check that it asks you to enter a character.

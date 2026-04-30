@@ -1,9 +1,8 @@
 <h2 class="c-project-heading--task">Wrap around</h2>
---- task ---
 
 Use a `%` to force new position to 0 once it gets to 26.
 
---- /task ---
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 <div class="c-project-code">
 --- code ---
@@ -31,10 +30,14 @@ print(new_position)
 1</pre>
 </div>
 
-<div class="c-project-callout c-project-callout--debug">
-
 ### Debugging
+
+<div class="c-project-callout c-project-callout--debug">
 
 - Parentheses are needed around `position + key`
 
 </div>
+
+## Now run your code
+
+Run your code, enter a character such as `y`, and check that the position wraps back to the start of the alphabet.

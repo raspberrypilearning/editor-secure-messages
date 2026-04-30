@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Let the user enter their own key</h2>
---- task ---
 
-Get the key from the user. 
+Get the key from the user.
+
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
 Remove the unecessary print statement.
-
---- /task ---
 
 <div class="c-project-code">
 --- code ---
@@ -36,10 +36,14 @@ Please enter a character: f
 The new character is:  k</pre>
 </div>
 
-<div class="c-project-callout c-project-callout--debug">
-
 ### Debugging
+
+<div class="c-project-callout c-project-callout--debug">
 
 - Make sure you have used `int` to convert the input key to an integer (number).
 
 </div>
+
+## Now run your code
+
+Run your code, enter a key and a character, and check that the new encrypted character matches your key.
