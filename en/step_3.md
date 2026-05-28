@@ -2,8 +2,6 @@
 
 Add an encryption `key`.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 Add it to the position.
 Print the new position.
 
