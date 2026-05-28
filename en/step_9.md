@@ -2,8 +2,6 @@
 
 Only translate a character if it's in the alphabet.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 Add an `if` `else` statement to your code, which only encrypts alphabet charcaters and adds the original special character to the encrypted message.
 
 <div class="c-project-code">

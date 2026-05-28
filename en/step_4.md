@@ -2,8 +2,6 @@
 
 Use a `%` to force new position to 0 once it gets to 26.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 <div class="c-project-code">
 --- code ---
 ---

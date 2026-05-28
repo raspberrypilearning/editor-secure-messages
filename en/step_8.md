@@ -2,8 +2,6 @@
 
 Store the new message in a variable, add each new character to it and print it at the end.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 <div class="c-project-code">
 --- code ---
 ---
