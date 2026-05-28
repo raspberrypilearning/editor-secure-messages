@@ -2,8 +2,6 @@
 
 Get the key from the user.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 Remove the unecessary print statement.
 
 <div class="c-project-code">
