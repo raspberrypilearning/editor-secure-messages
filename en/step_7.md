@@ -2,8 +2,6 @@
 
 Store the user's message and use a `for` loop to repeat the code for each character in the message.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 <div class="c-project-code">
 --- code ---
 ---
