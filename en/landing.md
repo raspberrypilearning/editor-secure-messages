@@ -1,6 +1,6 @@
 ## What you will make
 
-Make your own encryption program, to send and receive secure messages.
+Make your own encryption program to send and receive secure messages.
 
 Click **Run** to try the finished project and interact with it to see how the program responds.
 
