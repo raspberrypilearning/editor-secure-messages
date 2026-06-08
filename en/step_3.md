@@ -2,7 +2,7 @@
 
 Add an encryption `key`.
 
-Add it to the position.
+Add the key to the original position and save the answer in a new variable called `new_position`.
 Print the new position.
 
 <div class="c-project-code">
@@ -33,4 +33,4 @@ print(new_position)
 
 ## Now run your code
 
-Run your code, enter a character, and check that the new position number is printed after the key is added.
+Run your code, enter a character, and check that the new position number is printed.
