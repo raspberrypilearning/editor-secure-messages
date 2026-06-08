@@ -32,7 +32,7 @@ print(new_position)
 
 <div class="c-project-callout c-project-callout--debug">
 
-- Parentheses are needed around `position + key`
+- Make sure you have brackets around `position + key`
 
 </div>
 
