@@ -2,7 +2,7 @@
 
 Only translate a character if it's in the alphabet.
 
-Add an `if` `else` statement to your code, which only encrypts alphabet charcaters and adds the original special character to the encrypted message.
+Add an `if` `else` statement to your code, so that it only encrypts alphabet characters and adds any special characters to the encrypted message unchanged.
 
 <div class="c-project-code">
 --- code ---
