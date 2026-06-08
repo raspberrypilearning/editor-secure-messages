@@ -1,6 +1,6 @@
 <h2 class="c-project-heading--task">Wrap around</h2>
 
-Use a `%` to force new position to 0 once it gets to 26.
+Use a `%` to make `new_position` reset to 0 once it gets to 26.
 
 <div class="c-project-code">
 --- code ---
@@ -38,4 +38,4 @@ print(new_position)
 
 ## Now run your code
 
-Run your code, enter a character such as `y`, and check that the position wraps back to the start of the alphabet.
+Run your code, enter a character at the end of the alphabet, such as `y`, and check that the position wraps back to the start of the alphabet.
