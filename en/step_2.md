@@ -25,7 +25,7 @@ print(position)
 
 <div class="c-project-callout c-project-callout--tip">
 
-- The letter `a` is at position `0` in the alphabet.
+- The letter `a` is at position `0` in the alphabet
 
 </div>
 
