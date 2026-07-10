@@ -1,16 +1,8 @@
-<h2 class="c-project-heading--task">Print the new message on one line</h2>
+## Print the new message on one line
 
 Store the new message in a variable, add each new character to it and print it at the end.
 
-<div class="c-project-code">
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 1
-line_highlights: 4, 15, 16
----
+```python filename="main.py" line_numbers="true" line_number_start="1" line_highlights="4,15,16"
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
 key = input('Please enter the key: ')
 key = int(key)
@@ -27,15 +19,14 @@ for character in message:
 
 	new_message += new_character
 print(new_message)
---- /code ---
-</div>
-
-<div class="c-project-output">
-<pre>Please enter the key: 5
-Please enter a message: hello
-mjqqt</pre>
-</div>
+```
 
 ## Now run your code
 
 Run your code, enter a message, and check that the full encrypted message is printed as one word.
+
+```
+Please enter the key: 5
+Please enter a message: hello
+mjqqt
+```
