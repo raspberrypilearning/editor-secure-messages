@@ -1,16 +1,8 @@
-<h2 class="c-project-heading--task">Encrypt a full message</h2>
+## Encrypt a full message
 
 Store the user's message and use a `for` loop to repeat the code for each character in the message.
 
-<div class="c-project-code">
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 1
-line_highlights: 5-13
----
+```python filename="main.py" line_numbers="true" line_number_start="1" line_highlights="5-13"
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
 key = input('Please enter the key: ')
 key = int(key)
@@ -24,19 +16,18 @@ for character in message:
 
 	new_character = alphabet[new_position]
 	print('The new character is: ', new_character)
---- /code ---
-</div>
+```
 
-<div class="c-project-output">
-<pre>Please enter the key: 5
+## Now run your code
+
+Run your code, enter a message, and check that a new encrypted character is printed for each letter.
+
+```
+Please enter the key: 5
 Please enter a message: hello
 The new character is:  m
 The new character is:  j
 The new character is:  q
 The new character is:  q
-The new character is:  t</pre>
-</div>
-
-## Now run your code
-
-Run your code, enter a message, and check that a new encrypted character is printed for each letter.
+The new character is:  t
+```

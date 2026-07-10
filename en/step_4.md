@@ -1,16 +1,8 @@
-<h2 class="c-project-heading--task">Wrap around</h2>
+## Wrap around
 
 Use a `%` to make `new_position` reset to 0 once it gets to 26.
 
-<div class="c-project-code">
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 1
-line_highlights: 8
----
+```python filename="main.py" line_numbers="true" line_number_start="1" line_highlights="8"
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
 key = 3
 
@@ -20,22 +12,17 @@ position = alphabet.find(character)
 
 new_position = (position + key) % 26
 print(new_position)
---- /code ---
-</div>
+```
 
-<div class="c-project-output">
-<pre>Please enter a character: y
-1</pre>
-</div>
-
-### Debugging
-
-<div class="c-project-callout c-project-callout--debug">
-
-- Make sure you have brackets around `position + key`
-
-</div>
+> [!DEBUG]
+>
+> - Make sure you have brackets around `position + key`
 
 ## Now run your code
 
 Run your code, enter a character at the end of the alphabet, such as `y`, and check that the position wraps back to the start of the alphabet.
+
+```
+Please enter a character: y
+1
+```
